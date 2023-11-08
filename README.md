@@ -8,6 +8,13 @@
 ## Introduction
 In this modern era, technology is developing more and more rapidly. The emergence of electric vehicles adds another "choice" to society in choosing the type of vehicle to buy/use. Therefore, it is important to know the trends in the use of electric vehicles. In this project, we will use Electric Vehicle Title and Registration Activity data to model the number of electric vehicles in Washington state.
 
+New Version:
+In this modern era, technology is developing more and more rapidly. The emergence of electric vehicles (EV) adds another "choice" to society in choosing the type of vehicle to buy/use. 
+
+Therefore, it is important to know the trends in the use of electric vehicles to determine whether it's beneficial to buy EV for the long run as the customers, and whether it's beneficial to create and produce more EV as the automotive companies.
+
+In this project, we will use Electric Vehicle Title and Registration Activity data to model the number of electric vehicles for each County in Washington state (up to July 2023) and make a prediction for each County in Washing State up to July 2026
+
 ## Data
 We used Washington State's [dataset of electric vehicle title and registration activity](https://catalog.data.gov/dataset/electric-vehicle-title-and-registration-activity) [accessed on August 24, 2023] which included a total of 781,713 transactions.
 
