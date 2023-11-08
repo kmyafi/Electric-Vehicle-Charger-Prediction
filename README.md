@@ -6,9 +6,6 @@
 > 3. Kamal Muftie Yafi
 
 ## Introduction
-In this modern era, technology is developing more and more rapidly. The emergence of electric vehicles adds another "choice" to society in choosing the type of vehicle to buy/use. Therefore, it is important to know the trends in the use of electric vehicles. In this project, we will use Electric Vehicle Title and Registration Activity data to model the number of electric vehicles in Washington state.
-
-New Version:
 In this modern era, technology is developing more and more rapidly. The emergence of electric vehicles (EV) adds another "choice" to society in choosing the type of vehicle to buy/use. 
 
 Therefore, it is important to know the trends in the use of electric vehicles to determine whether it's beneficial to buy EV for the long run as the customers, and whether it's beneficial to create and produce more EV as the automotive companies.
