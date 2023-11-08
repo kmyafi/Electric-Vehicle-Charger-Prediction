@@ -22,8 +22,21 @@ We then filtered the data to keep only the last transaction that happened on eve
 
 Using this preprocessed dataset, we proceed to worked on the Exploratory Data Analysis (EDA) and created visualizations. Then we moved to the modeling.
 
-The modelling process was the same for each county, which consisted of 2 parts. The first part is by using all of the data in that county, and then used seasonal decomposition to see the trend, seasonality and stationarity assumption, split the data into training and testing (80%:20%), used auto.arima() to create the SARIMAX model, evaluated the model (to see whether the model holds the assumption that are needed), used the model to predict the dataset and see the Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and R-Squared.
+The modelling process was the same for each county, which consisted of 2 parts. The first part is by using all of the data in that county, and then used seasonal decomposition to see the trend, seasonality and stationarity assumption, split the data into training and testing (80%:20%), used `auto.arima()` to create the SARIMAX model, evaluated the model (to see whether the model holds the assumption that are needed), used the model to predict the dataset and see the Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and R-Squared.
 
-The second part process process is by using the data in that county that are only from 2020. After that we split the data into training and testing (80%:20%), used auto.arima() to create the SARIMAX model, evaluated the model (to see whether the model holds the assumption that are needed), used the model to predict the dataset and see the Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and R-Squared, compared this model to the first part model, and then choosed the model that minimizes MAPE and RMSE, and maximize R-Squared.
+The second part process process is by using the data in that county that are only from 2020. After that we split the data into training and testing (80%:20%), used `auto.arima()` to create the SARIMAX model, evaluated the model (to see whether the model holds the assumption that are needed), used the model to predict the dataset and see the Mean Absolute Percentage Error (MAPE), Root Mean Squared Error (RMSE), and R-Squared, compared this model to the first part model, and then choosed the model that minimizes MAPE and RMSE, and maximize R-Squared.
 
 The model that were chosen from each county then were used to predict the total number of EV for their respective county from August 2023 to July 2026.
+
+## For More Information
+
+Please review my full analysis in [our Jupyter Notebook](./notebook.ipynb) or our [presentation](./presentation.pdf).
+
+### Repository Structure
+```
+├── README.md               # Top-level README
+├── notebook.ipynb          # Narrative documentation of analysis in Jupyter Notebook
+├── notebook.pdf            # Narrative documentation of analysis in PDF
+├── presentation.pdf        # PDF version of project presentation
+└── data                    # Externally sourced data
+```
