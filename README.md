@@ -1,4 +1,4 @@
-# Forecasting the Number of Electric Vehicles in Washington State Using SARIMA Time Series Analysis
+# Forecasting the Number of Electric Vehicles in Washington State's Counties Using SARIMA Time Series Analysis
 
 > **Credits :**
 > 1. Diki Wahyudi
