@@ -30,7 +30,7 @@ The model that were chosen from each county then were used to predict the total 
 
 ## For More Information
 
-Please review my full analysis in [our Jupyter Notebook](./notebook.ipynb) or [our presentation](./presentation.pdf).
+Please review our full analysis in [our Jupyter Notebook](./notebook.ipynb) or [our presentation](./presentation.pdf).
 
 ### Repository Structure
 ```
